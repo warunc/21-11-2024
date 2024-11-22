@@ -10,7 +10,7 @@
         <form action="./login.html">
             <h1>Register successful</h1>
             username:<input type="text" id="username" name="username" placeholder="enter username" required pattern="[a-zA-Z]+"><br>
-            password: <input type="text" id="password" name="password" placeholder="password" required pattern="[a-z/d]+" min="8" max="16" title="min 8 max 16"><br> 
+            password: <input type="text" id="password" name="password" placeholder="password" required pattern="(?=.*[a-z])(?=.*=[A-Z](?=.*[\d])(?.*=[@#$%]))" min="8" max="16" title="min 8 max 16"><br> 
 
             <input type="submit" value="login">
         </form>

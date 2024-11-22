@@ -9,7 +9,7 @@
     <form action="./newpassword.html">
         <center>Forgot password <br>
             username: <input type="text" name="username" id="username" placeholder="enter username" required pattern="[a-zA-Z]+" ><br>
-            password: <input type="text" name="password" id="password" placeholder="enter password" required paterrn="[a-zA-Z].+" min="8" max="16" title="min 8 max 16"><br>
+            password: <input type="text" name="password" id="password" placeholder="enter password" required paterrn="(?=.*[a-z])(?=.*=[A-Z](?=.*[\d])(?.*=[@#$%]))" min="8" max="16" title="min 8 max 16"><br>
             OTP: <input type="text" name="OTP"id="OTP" placeholder="enter OTP" required><br>
             your otp 123 <br>
             <input type="submit" value="login">
